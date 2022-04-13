@@ -4,10 +4,12 @@
  */
 package com.emanuel.bibliotecaWeb.servicios;
 
-/**
- *
- * @author pc
- */
+import com.emanuel.bibliotecaWeb.repositorios.EditorialRepositorio;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
 public class ServicioEditorial {
-    
+    @Autowired
+private EditorialRepositorio editorialRepositorio;
 }

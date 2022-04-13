@@ -4,10 +4,13 @@
  */
 package com.emanuel.bibliotecaWeb.servicios;
 
-/**
- *
- * @author pc
- */
+import com.emanuel.bibliotecaWeb.repositorios.LibroRepositorio;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
 public class ServicioLibro {
+  @Autowired  
+private LibroRepositorio libroRepositorio;  
     
 }
